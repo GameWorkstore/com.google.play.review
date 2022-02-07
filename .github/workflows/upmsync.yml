@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       base: https://dl.google.com/games/registry/unity/com.google.play.review/com.google.play.review
-      version: 1.6.0
+      version: 1.6.1
     steps:
       - uses: actions/checkout@v2
       - name: Config
